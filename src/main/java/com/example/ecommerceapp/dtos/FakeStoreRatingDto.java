@@ -3,8 +3,8 @@ package com.example.ecommerceapp.dtos;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter
 @Setter
+@Getter
 public class FakeStoreRatingDto {
     private Double rate;
     private Long count;

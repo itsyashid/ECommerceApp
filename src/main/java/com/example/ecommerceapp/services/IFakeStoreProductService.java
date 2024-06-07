@@ -5,9 +5,11 @@ import com.example.ecommerceapp.models.Product;
 import java.util.List;
 
 public interface IFakeStoreProductService {
-    List<Product> getAllProduct();
+    List<Product> getAllProducts();
 
     Product getProductById(Long id);
 
     Product createProduct(Product product);
+
+    Product replaceProduct(Long id,Product product);
 }
